@@ -8,4 +8,11 @@ module.exports = {
     './emails/**/*.html',
     './layouts/**/*.html',
   ],
-}
+  theme: {
+    extend: {
+      colors: {
+        'custom-gray': '#E7ECF2',
+      },
+    },
+  },
+};
