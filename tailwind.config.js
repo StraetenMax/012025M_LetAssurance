@@ -9,6 +9,10 @@ module.exports = {
     './layouts/**/*.html',
   ],
   theme: {
+    screens:{
+      'sm':'350px',
+      'md':'480px',
+    },
     extend: {
       colors: {
         'custom-gray': '#E7ECF2',

@@ -26,6 +26,23 @@
     .hover-underline:hover {
       text-decoration: underline !important
     }
+    @media (min-width: 480px, ) {
+      .md-w-30pc {
+        width: 30% !important
+      }
+      .md-w-70pc {
+        width: 70% !important
+      }
+      .md-flex-row {
+        flex-direction: row !important
+      }
+      .md-pl-2_5 {
+        padding-left: 10px !important
+      }
+      .md-pr-2_5 {
+        padding-right: 10px !important
+      }
+    }
   </style>
 </head>
 <body style="margin: 0; width: 100%; background-color: #f8fafc; padding: 0; -webkit-font-smoothing: antialiased; word-break: break-word">
@@ -54,38 +71,38 @@
               <td style="width: 100%; background-color: #E7ECF2; padding: 20px 40px">
                 <p style="margin: 0; font-weight: 700; text-transform: uppercase; color: #9333ea">Édito</p>
                 <h2 style="margin: 0; font-weight: 600; color: #5b21b6">Titre de l'Article</h2>
-                <p style="margin: 0; text-align: left; font-size: 16px; color: #475569">
+                <p style="margin: 0; text-align: left; font-size: 16px; line-height: 20px; color: #475569">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.consectetur adipiscing elit Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
-                <p style="margin: 0; padding-top: 6px; padding-bottom: 6px; text-align: left; font-size: 16px; color: #475569">
+                <p style="margin: 0; padding-top: 6px; padding-bottom: 6px; text-align: left; font-size: 16px; line-height: 20px; color: #475569">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.consectetur adipiscing elit Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
-                <p style="margin: 0; padding-top: 6px; padding-bottom: 6px; text-align: left; font-size: 16px; color: #475569">
+                <p style="margin: 0; padding-top: 6px; padding-bottom: 6px; text-align: left; font-size: 16px; line-height: 20px; color: #475569">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.consectetur adipiscing elit Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
-                <p style="margin: 0; padding-top: 6px; padding-bottom: 6px; text-align: left; font-size: 16px; color: #475569">
+                <p style="margin: 0; padding-top: 6px; padding-bottom: 6px; text-align: left; font-size: 16px; line-height: 20px; color: #475569">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.consectetur adipiscing elit Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
               </td>
             </tr>
           </table>
-          <table style="margin-left: auto; margin-right: auto; padding: 20px 40px; font-family: Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" cellpadding="0" cellspacing="0" role="none">
+          <table align="center" style="margin-left: auto; margin-right: auto; padding: 20px 40px; font-family: Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" cellpadding="0" cellspacing="0" role="none">
             <tr>
-              <td style="width: 30%; max-width: 100%; padding-right: 10px; vertical-align: top">
-                <img src="https://i.ibb.co/32yz1W1/01-Trading-Game012025.jpg" alt="Image Description" style="vertical-align: middle; max-width: 100%">
-              </td>
-              <td style="width: 70%; max-width: 100%; padding-left: 10px">
-                <p style="margin: 0; font-weight: 700; text-transform: uppercase; color: #9333ea">Alternance</p>
-                <h2 style="margin: 0; font-weight: 600; color: #5b21b6">Titre de l'Article</h2>
-                <p style="margin: 0; text-align: left; font-size: 16px; line-height: 20px; color: #475569">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.consectetur adipiscing elit Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                </p>
-                <div>
-                  <a href="https://maizzle.com" style="text-decoration: none; font-size: 16px; line-height: 1; border-radius: 4px; background-color: #4338ca; color: #fffffe; margin-left: auto; display: block; width: 120px; padding: 8px 16px; text-align: center">
-                    <!--[if mso]><i style="mso-font-width: 150%; mso-text-raise: 31px" hidden>&emsp;</i><![endif]-->
-                    <span style="mso-text-raise: 16px">En savoir plus</span>
-                    <!--[if mso]><i hidden style="mso-font-width: 150%">&emsp;&#8203;</i><![endif]-->
-                  </a>
+              <td>
+                <div class="md-flex-row" style="display: flex; flex-direction: column">
+                  <div class="md-w-30pc md-pr-2_5" style="width: 100%; padding-right: 0; vertical-align: top">
+                    <img src="https://i.ibb.co/32yz1W1/01-Trading-Game012025.jpg" alt="Image Description" style="vertical-align: middle; display: block; max-width: 100%">
+                  </div>
+                  <div class="md-w-70pc md-pl-2_5" style="width: 100%; padding-left: 0">
+                    <p style="margin: 0; font-weight: 700; text-transform: uppercase; color: #9333ea">Alternance</p>
+                    <h2 style="margin: 0; font-weight: 600; color: #5b21b6">Titre de l'Article</h2>
+                    <p style="margin: 0; text-align: left; font-size: 16px; line-height: 20px; color: #475569">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.consectetur adipiscing elit Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                    <a href="https://maizzle.com" style="margin-left: auto; display: inline-block; width: 120px; background-color: #2563eb; padding: 8px 16px; text-align: center; font-weight: 600; color: #fffffe; text-decoration: none">
+                      En savoir plus
+                    </a>
+                  </div>
                 </div>
               </td>
             </tr>
